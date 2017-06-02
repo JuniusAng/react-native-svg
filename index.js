@@ -18,7 +18,7 @@ import LinearGradient from './elements/LinearGradient';
 import RadialGradient from './elements/RadialGradient';
 import Stop from './elements/Stop';
 import ClipPath from './elements/ClipPath';
-
+import SvgUri from './uri';
 export {
     Svg,
     Circle,
@@ -39,7 +39,8 @@ export {
     LinearGradient,
     RadialGradient,
     Stop,
-    ClipPath
+    ClipPath,
+    SvgUri
 };
 
 export default Svg;
