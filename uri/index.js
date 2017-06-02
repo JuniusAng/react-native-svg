@@ -4,22 +4,21 @@ import {View} from 'react-native';
 import xmldom from 'xmldom';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
 
-import Svg,{
-    Circle,
-    Ellipse,
-    G ,
-    LinearGradient,
-    RadialGradient,
-    Line,
-    Path,
-    Polygon,
-    Polyline,
-    Rect,
-    Symbol,
-    Use,
-    Defs,
-    Stop
-} from '../react-native-svg';
+import Svg from '../index';
+import Rect from '../elements/Rect';
+import Circle from '../elements/Circle';
+import Ellipse from '../elements/Ellipse';
+import Polygon from '../elements/Polygon';
+import Polyline from '../elements/Polyline';
+import Line from '../elements/Line';
+import Path from '../elements/Path';
+import G from '../elements/G';
+import Use from '../elements/Use';
+import Symbol  from '../elements/Symbol';
+import Defs from '../elements/Defs';
+import LinearGradient from '../elements/LinearGradient';
+import RadialGradient from '../elements/RadialGradient';
+import Stop from '../elements/Stop';
 
 import * as utils from './utils';
 
